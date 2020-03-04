@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="assets/main.css" />
+    <script src="javascript/main.js"></script>
+  </head>
+
+  <body>
+    <div class="pageHeader">
+      <header class="navbar">
+        <a href="#pageHeader">Home</a>
+        <a href="store">Store</a>
+        <a href="option2">Option 2</a>
+        <a href="option3">Option 3</a>
+      </header>
+    </div>
+
+    <div class="wrapper">
+      <div class="productInfo">
+        <h1 style="font-size: 40px;">Some product</h1>
+        <p id="productText" style="font-size: 25px;">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+          dolores quibusdam officia illum sit odit eius cumque maiores
+          reprehenderit, quia ex rem ipsam dolore optio esse nostrum sequi nam.
+          Facere.
+        </p>
+      </div>
+      <div class="billingInfo">
+        <p style="font-size :10x; text-align: center;">
+          Please completely fill out the information below.
+        </p>
+        <h1>Billing Address</h1>
+        <form>
+          <div class="first">
+            <lable for="firstName">First Name</lable><br />
+            <input type="text" id="firstName" />
+          </div>
+          <div class="last">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" />
+          </div>
+          <div class="email" name="email">
+            <label for="emailAddress">Email Address</label><br />
+            <input type="text" id="emailAddress" />
+          </div>
+        </form>
+      </div>
+      <div class="yourCart"></div>
+
+      <!-- end of wrapper below-->
+    </div>
+  </body>
+</html>

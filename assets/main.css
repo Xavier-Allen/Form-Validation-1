@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(226, 213, 213);
+}
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+.navbar a {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  padding: 19px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: black;
+  background-color: teal;
+}
+.navbar a:active {
+  color: black;
+  background-color: teal;
+}
+.wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.productInfo {
+  text-align: center;
+  padding: 20px;
+}
+.billingInfo {
+  float: left;
+  width: 600px;
+  background-color: pink;
+  height: 500px;
+}
+.yourCart {
+  float: right;
+  width: 500px;
+  background-color: blue;
+  height: 200px;
+}
+.first {
+  display: inline-block;
+}
+.first label {
+  display: block;
+}
+.last {
+  display: inline-block;
+}
+.last label {
+  display: block;
+}
